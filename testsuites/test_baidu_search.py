@@ -45,6 +45,3 @@ class BaiduSearch(unittest.TestCase):
         homepage.send_submit_btn()  # 调用页面对象类中的点击搜索按钮方法
         time.sleep(2)
         homepage.get_windows_img()  # 调用基类截图方法
-
-if __name__ == '__main__':
-    unittest.main()
